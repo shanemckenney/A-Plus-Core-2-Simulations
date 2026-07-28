@@ -503,6 +503,7 @@
 <div class="a11y-bar">
   <button id="a11yFontBtn" onclick="a11yToggleFont()" title="Toggle OpenDyslexic font for easier reading">🔤 Dyslexia Font</button>
   <button id="a11yReadBtn" onclick="a11yReadAloud()" title="Read the current scenario text aloud">🔊 Read Aloud</button>
+  <button id="a11yStopBtn" onclick="a11yStopAudio()" title="Stop reading aloud">⏹ Stop</button>
 </div>
 
 <script>
@@ -511,6 +512,12 @@
     const on = document.body.classList.contains('a11y-dyslexic');
     document.getElementById('a11yFontBtn').classList.toggle('active', on);
     try { localStorage.setItem('a11y-dyslexic-font', on ? '1' : '0'); } catch (e) {}
+  }
+
+  function a11yStopAudio() {
+    if ('speechSynthesis' in window) {
+      window.speechSynthesis.cancel();
+    }
   }
 
   function a11yReadAloud() {
