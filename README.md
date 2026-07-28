@@ -10,7 +10,7 @@
 [![Dependencies](https://img.shields.io/badge/Dependencies-Zero-22c55e?style=for-the-badge)](#-tech-philosophy)
 [![License](https://img.shields.io/badge/License-Educational%20Use-9ca3af?style=for-the-badge)](#-license--disclaimer)
 
-**[🚀 Launch the Lab]([./index.html](https://shanemckenney.github.io/A-Plus-Core-2-Simulations/))** &nbsp;·&nbsp; **[📄 Resume Bullets](./resume-bullets.html)** &nbsp;·&nbsp; **[🗂️ What's Inside](#-whats-inside)**
+**[🚀 Launch the Lab](https://shanemckenney.github.io/A-Plus-Core-2-Simulations/)** &nbsp;·&nbsp; **[📄 Resume Bullets](./resume-bullets.html)** &nbsp;·&nbsp; **[🗂️ What's Inside](#-whats-inside)**
 
 </div>
 
