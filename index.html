@@ -223,6 +223,22 @@
       background: linear-gradient(135deg, var(--accent-tertiary), #fb7185);
     }
 
+    .featured-banner.cli-variant {
+      background: linear-gradient(135deg, rgba(34, 197, 94, 0.15), rgba(34, 197, 94, 0.05));
+      border-color: rgba(34, 197, 94, 0.4);
+      box-shadow: 0 0 0 1px rgba(34, 197, 94, 0.08), 0 20px 40px rgba(34, 197, 94, 0.12);
+    }
+
+    .featured-banner.cli-variant .featured-badge {
+      background: rgba(34, 197, 94, 0.2);
+      color: var(--success);
+      border-color: rgba(34, 197, 94, 0.4);
+    }
+
+    .featured-banner.cli-variant .featured-launch-btn {
+      background: linear-gradient(135deg, var(--success), #4ade80);
+    }
+
     /* ═══════════════════════════════════════ TABS ═══════════════════════════════════════ */
     .tier-tabs {
       max-width: 1600px;
@@ -600,7 +616,7 @@
       <div class="exam-stats">
         <div class="stat-box">
           <div class="stat-label">Total Simulations</div>
-          <div class="stat-value">13</div>
+          <div class="stat-value">14</div>
         </div>
         <div class="stat-box">
           <div class="stat-label">Domains Covered</div>
@@ -622,6 +638,15 @@
       <p>Master all 170 CompTIA A+ Core 2 acronyms with spaced-repetition flashcards and scenario-based quizzes. Acronym recall underpins nearly every exam question — start here.</p>
     </div>
     <button class="featured-launch-btn" onclick="window.location.href='simulations/Core_2_Acronym_Practice.html'">Launch Flashcards</button>
+  </div>
+
+  <div class="featured-banner cli-variant">
+    <div class="featured-banner-text">
+      <div class="featured-badge">⌨️ Essential Study Tool</div>
+      <h3>Command-Line Tools Practice: Windows &amp; Linux</h3>
+      <p>Drill Windows CMD and Linux Bash commands side by side in one live practice terminal, with a quick-reference table and a 10-question check for each OS. General command fluency, not a scenario &mdash; like the acronym engine, it's foundational practice you'll come back to.</p>
+    </div>
+    <button class="featured-launch-btn" onclick="window.location.href='simulations/Command-Line Tools Practice - Windows and Linux.html'">Launch Terminal</button>
   </div>
 
   <!-- ═════════════════════════════════════════ TABS ═════════════════════════════════════════ -->
